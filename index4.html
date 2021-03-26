@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Dolar para reais</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+
+        body{
+            background-image: url('https://www.publicdomainpictures.net/pictures/170000/velka/dollars-background-1462001372fMM.jpg');
+            background-attachment: fixed;
+        }
+        h2{
+            font-size: 10em;
+            text-align: center;font-family: monospace;
+        }
+        h1{
+            font-size: 4em;
+            font-family: 'Dela Gothic One', cursive;
+            text-align: center;
+            margin-top: -10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Conversor de moedas dolar para real</h1>
+    <h2 id="po"></h2>
+    <script>
+        var valor1 = Number(prompt('Qual valor deseja converter? '));
+        var resultado = valor1 * 5.50;
+        document.getElementById('po').innerHTML = "$ " + resultado.toFixed(2);
+
+    </script>
+    
+</body>
+</html>
