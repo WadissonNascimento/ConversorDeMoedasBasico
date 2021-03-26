@@ -1,2 +1,2 @@
 # ConversorDeMoedasBasico
-Conversor de moedas básico com JS com uso de prompt.
+Conversor de moedas básico com uso de prompt.
